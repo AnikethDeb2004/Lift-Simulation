@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+  }
+  
+  .form-input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .form-input {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #364f45;
+    color: rgb(255, 255, 255);
+    padding: 0.7rem;
+    border-radius: 25%;
+  }
+  
+  .btn-primary:hover {
+    cursor: pointer;
+  }
+  
+  .floorplan {
+    margin-top: 2.5rem;
+    background-color: #afa7de;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .floorNumber {
+    position: relative;
+    bottom: 1rem;
+    left: 0.5rem;
+  }
+  
+  .line {
+    height: 0.1rem;
+    background-color: rgb(203, 0, 0);
+  }
+  
+  .lift {
+    width: 1rem;
+    background-color: #07432b;
+    height: 3rem;
+    position: relative;
+    left: 1rem;
+    bottom: 5rem;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
+  
+  .lift-array {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .lift-array button {
+    position: relative;
+    left: 1rem;
+    bottom: 5rem;
+  }
+  
+  .button-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5rem;
+  }
+  
+  .button-list button {
+    background-color: transparent;
+    border: none;
+  }
+  
+  img {
+    width: 16px;
+  }
+  
+  .lift-package {
+    display: flex;
+    row-gap: 1rem;
+  }
